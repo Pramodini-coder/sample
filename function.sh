@@ -1,1 +1,1 @@
-echo printf
+echo print
