@@ -1,5 +1,6 @@
 y=200
-demo
+demo()
 {
   echo demo funtion
 }
+demo
