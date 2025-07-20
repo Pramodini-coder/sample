@@ -3,3 +3,6 @@ SAMPLE () {
 
 }
 SAMPLE
+
+source common.sh
+demo
