@@ -3,4 +3,3 @@ demo()
 {
   echo demo funtion
 }
-demo
