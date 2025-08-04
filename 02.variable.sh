@@ -28,6 +28,6 @@ echo LHS variable a_lhs - ${a_lhs}
 # bash  02.variable.sh 1000 abc
 echo first value - $1
 echo second value - $2
-eccho all values -$*
+eccho all values - $*
 echo count numbers - $#
 
