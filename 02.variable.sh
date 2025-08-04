@@ -9,12 +9,12 @@ echo value x - ${x}
 #LHS        script    RHS
 # before script  - environment variable
 #on cli I sent the variable using the following the command
-#export - a_env=1000
+#export a_env=1000
 #bash 02.available.sh to run the command in linux
 # shellcheck disable=SC2086
 echo env variable - a_env  - ${a-env}
 
 # shellcheck disable=SC2086
-#export - a_env=1000
+#export  a_env=1000
 
 echo LHS variable a_lhs - ${a_lhs}
