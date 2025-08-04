@@ -15,6 +15,5 @@ echo value x - ${x}
 echo env variable - a_env  - ${a-env}
 
 # shellcheck disable=SC2086
-#export  a_env=1000
-
+#a_lhs=1000 bash 02.variable.sh
 echo LHS variable a_lhs - ${a_lhs}
