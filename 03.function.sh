@@ -12,7 +12,7 @@ demo
 # LHS  funtion  RHS
 abc1() {
 echo value of a - $a
-echo value of a - $b
+echo value of b - $b
 echo first argument - $1
 echo secode argument - $2
 echo all argument - $*
