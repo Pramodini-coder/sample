@@ -14,4 +14,5 @@ echo value x - ${x}
 # shellcheck disable=SC2086
 echo env variable - a_env  - ${a-env}
 
-
+# shellcheck disable=SC2086
+echo LHS variable a_lhs - ${a_lhs}
