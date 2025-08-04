@@ -36,4 +36,13 @@
    echo $a is less then 100
    fi
 
+   # 2. string comparisons
+   # operations : = , != , -z
+   # [ abc = abc ]
+   # [ -z $x ] --> this is true if x is not having any value which it is not declared
+   if [ -z $x ]; then
+   echo x is empty
+   fi
+
+
 
