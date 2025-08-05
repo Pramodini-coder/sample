@@ -43,6 +43,6 @@
    if [ -z $x ]; then
    echo x is empty
    fi
-
-
-
+## note : in expression , variables keep double quotes
+# 3. file checks
+# operations : -e {man bash
